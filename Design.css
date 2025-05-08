@@ -1,0 +1,360 @@
+/*General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+  background-image: url('image/AboutUs/bground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  height: 100%;
+}
+/*NAV*/
+nav ul {
+  margin-top: 0px;
+  padding: 0 100px;
+  font-size: 30px;
+  font-family: Cooper Black;
+}
+nav ul li {
+  gap: 1000px;
+  justify-content: center;
+}
+.navbar-center {
+  float: none;
+  margin: 0 auto;
+  display: flex;
+  table-layout: fixed;
+  gap: 200px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+header{
+  margin-top: 25px;
+}
+header .text-left{
+  font-family: 'Times New Roman', Times, serif;
+}
+header .text-left1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+/* HOME */
+.hero {
+  text-align: center;
+  color: white;
+  height: 75vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #aaa8a823;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100px;
+}
+.hero h1 {
+  font-size: 75px;
+}
+.hero p {
+  margin: 1rem 0;
+  font-style: italic;
+  font-size: 35px;
+  margin-top: 10px;
+}
+.hero .btn {
+  padding: 10px 20px;
+  background: #0205ccaa;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 35px;
+}
+.hero .btn:hover {
+  background: #6dc0e4c6;
+}
+/* Make modal taller and scrollable if content overflows */
+.modal-dialog {
+  height: 1000px;
+  max-width: 1300px;
+  width: 90%;
+  font-family: 'Times New Roman', Times, serif;
+  max-height: 400px;
+  overflow: visible;
+}
+.haha{
+  font-size: 25px;
+  align-items: center;
+}
+.modal-title{
+  font-size: 25px;
+}
+
+.modal-content {
+  padding: 20px;
+  font-size: 25px;
+}
+.close{
+  font-size: 35px;
+}
+
+
+/* Add spacing between form groups */
+.modal-content .form-group {
+  margin-bottom: 15px;
+}
+
+/* Make input fields more readable */
+.modal-content input,
+.modal-content select {
+  height: 40px;
+  font-size: 25px;
+}
+
+/* Better spacing for checkbox and buttons */
+.modal-content .checkbox .box{
+  margin-top: 0px;
+  font-size: 33px;
+  margin-left: 10px;
+
+}
+input[type="checkbox"] {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  margin-right: 1px;
+  margin-bottom:100px;
+} 
+
+
+.modal-content .btn {
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+/* PROGRAMS */
+.Prog{
+  height: 75vh;
+  background-color: #aaa8a823;
+}
+.custom-card {
+  background: rgba(232, 239, 245, 0.459);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 30px;
+  width: 350px;
+  text-align: center;
+  margin: 70px auto;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 100px;
+  color: #000000;
+
+}
+.custom-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 500%;
+  margin-bottom: 15px;
+}
+.button{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+/*Admission*/
+.all{
+  height: 67vh;
+  background-color: #aaa8a839;
+}
+.add h2{
+  margin-top: 25px;
+  color: #f5efef;
+  font-family: Cooper Black;
+  font-style: italic;
+  text-align: center;
+}
+.add h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+}
+.add p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  color: #f8f8f8;
+  margin-left: 30px;
+}
+/*FACULTY AND STAFF*/
+.profile-card {
+  text-align: center;
+  margin-bottom: 20px;
+  background: rgba(232, 239, 245, 0.459);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  font-weight: bold;
+  
+}
+.profile-card h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.profile-card img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 500%;
+  margin-bottom: 15px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+}
+
+/*Contact US*/
+.contact{
+  height: 75vh;
+  background-color: #aaa8a839;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+}
+.contact .call {
+  background: rgba(232, 239, 245, 0.459);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 350px;
+  width: 300px;
+  text-align: center;
+}
+/*About Us*/ 
+.left-container {
+  width: 95%; /* Occupies 70% of the page */
+  margin-left: 51px; /* Aligned to left */
+  margin-right: auto; /* No centering */
+}
+.left-container .vANDm{
+  text-align: center;
+}
+
+.right-container{
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: justify;
+}
+.carousel-inner .item img {
+  display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.AU{
+  height: 140vh;
+  background-color: #89898961;
+  color: #f8f8f8;
+  text-align: justify;
+}
+.AU h2{
+  font-family: Cooper Black;
+  font-style: italic;
+}
+.AU p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+/*NEWS*/
+.row1 .item img {
+  width: 300%;
+  height: 600px;
+  object-fit: cover;
+}
+.col1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 25px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  color: #000000;
+  font-size: 30px;
+}
+.carousel1 {
+  margin-bottom: 0;
+
+}
+.row1 {
+  margin-bottom: 30px;
+}
+.text-center{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 75px;
+  color: white;
+}
+
+/* Footer */
+.footerA {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 35px;
+}
+.footerB {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 333px;
+}
+.footerC {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.social .social-icons a {
+  color: rgb(247, 245, 245);
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social .social-icons a:hover {
+  text-decoration: underline;
+}
+
